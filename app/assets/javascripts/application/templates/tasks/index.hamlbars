@@ -1,5 +1,5 @@
-.title Tasks
-.tasks
-  = hb('each') do
-    .task
+%strong.title Tasks
+%ul.tasks
+  = hb('each .') do
+    %li.task
       .notes= hb('notes')
